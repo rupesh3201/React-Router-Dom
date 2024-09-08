@@ -1,4 +1,4 @@
-import "./Fotter.css"
+import "./Footer.css"
 // improted css
 import React  from "react";
 function Footter()

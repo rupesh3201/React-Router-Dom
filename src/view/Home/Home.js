@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./../../components/Navbar/Navbar";
-import Homeimg from "./Contact us.jpg"
-import "./Home.css"
-import Footter from "../../components/Footer/Footer";
+import Navbar from "./../../component/Navbar/Nvabar";
+//import Homeimg from "./Contact us.jpg"
+import "./Contact.css"
+import Footter from "./../../component/Fotter/Footer";
 function Home()
 {
     return (
@@ -10,7 +10,7 @@ function Home()
             {/*nav bar  */}
             <Navbar/>
             <h1 className="title">Home </h1>
-            <img src={Homeimg} className="img" />
+            {/* <img src={Homeimg} className="img" /> */}
             <Footter/>
         </div>
     )

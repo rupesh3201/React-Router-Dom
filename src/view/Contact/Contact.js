@@ -1,15 +1,15 @@
 import React from "react";
-import Navbar from "./../../components/Navbar/Navbar";
-import AboutImg from "./Contact us-rafiki (1).png"
+import Navbar from "./../../component/Navbar/Nvabar";
+// import AboutImg from "./Contact us-rafiki (1).png"
 import "./Contact.css"
-import Footter from "../../components/Footer/Footer";
+import Footter from "./../../component/Fotter/Footer";
 function Contact()
 {
     return (
         <div>
             <Navbar/>
             <h1 className="title" >Contact page </h1>
-            <img src={AboutImg} className="img"/>
+            {/* <img src={AboutImg} className="img"/> */}
             <Footter/>
         </div>
     )
