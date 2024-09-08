@@ -1,0 +1,27 @@
+.navbar
+{
+    background-color: rgb(163, 170, 129);
+    display: block;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 100px;
+  
+}
+
+.navbar_links
+{
+    display: flex;
+    align-self: center;
+    gap: 200px;
+    font-size: 25px;
+   
+    
+}
