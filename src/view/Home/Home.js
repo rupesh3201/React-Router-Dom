@@ -14,10 +14,8 @@ function Home()
             {/* <img src={Homeimg} className="img" /> */}
                 {/* "Link comopnent is used as anchor tag in react router dom laibery href is replaced with to  */}
                 <button type="button" className="toast" onClick={()=>{toast.success("Hello there")}}>Sucess</button>
-                
-
-
-
+                <button type="button" className="toast" onClick={()=>{toast.error("Something went Wrong")}}>Error</button>
+              
                 <Toaster/>
             <Footter/>
         </div>
