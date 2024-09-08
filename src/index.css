@@ -1,5 +1,7 @@
 body {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +12,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.p404
+{
+  text-align: center;
+
+}
+
+.img{
+  height: 400px;
+  width: 550px;
+  margin-left: 270px;
+}
+.title
+{
+
+  margin-left: 20px;
+  background-color: orange;
+  padding: 5px;
+display: inline;
+  border-radius: 10px;
+ 
+  color: rgb(18, 61, 51);
 }
