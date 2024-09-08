@@ -16,7 +16,10 @@ function Home()
                 <button type="button" className="toast" onClick={()=>{toast.success("Hello there")}}>Sucess</button>
                 <button type="button" className="toast" onClick={()=>{toast.error("Something went Wrong")}}>Error</button>
                 <button type="button" className="toast" onClick={()=>{toast.loading("please wait")}}>Loading</button>
-                
+                <button type="button" className="toast" onClick={()=>{toast.success("Hello there")}}>Show Toast</button>
+
+
+
                 <Toaster/>
             <Footter/>
         </div>
