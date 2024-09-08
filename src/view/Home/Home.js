@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "./../../component/Navbar/Nvabar";
 //import Homeimg from "./Contact us.jpg"
-import "./Contact.css"
+import "./Home.css"
 import Footter from "./../../component/Fotter/Footer";
+import toast, { Toaster } from "react-hot-toast";
 function Home()
 {
     return (
@@ -11,6 +12,9 @@ function Home()
             <Navbar/>
             <h1 className="title">Home </h1>
             {/* <img src={Homeimg} className="img" /> */}
+                {/* "Link comopnent is used as anchor tag in react router dom laibery href is replaced with to  */}
+                <button type="button" className="toast" onClick={()=>{toast.success("Hello there")}}>Show Toast</button>
+                <Toaster/>
             <Footter/>
         </div>
     )
