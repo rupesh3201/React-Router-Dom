@@ -4,7 +4,6 @@ import About from './views/About/About';
 import Contact from './views/Contact/Contact';
 import "./index.css"
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
-const current_path = window.location.pathname
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
@@ -19,4 +18,5 @@ const router = createBrowserRouter([
     path: '/Contact',
     element: <Contact/>
   }
-]);
+])
+root.render(<RouterProvider router={router}/>)
