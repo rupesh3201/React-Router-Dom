@@ -13,10 +13,10 @@ function Home()
             <h1 className="title">Home </h1>
             {/* <img src={Homeimg} className="img" /> */}
                 {/* "Link comopnent is used as anchor tag in react router dom laibery href is replaced with to  */}
-                <button type="button" className="toast" onClick={()=>{toast.success("Hello there")}}>Sucess</button>
+                <button type="button" className="toast" onClick={()=>{toast.success("Hello there",{icon:"❤️", duration:"2000",style:{backgroundColor:"orange"}})}}>Sucess</button>
                 <button type="button" className="toast" onClick={()=>{toast.error("Something went Wrong")}}>Error</button>
-                <button type="button" className="toast" onClick={()=>{toast.loading("please wait")}}>Loading</button>
-                <button type="button" className="toast" onClick={()=>{toast.success("Hello there")}}>Show Toast</button>
+                <button type="button" className="toast" onClick={()=>{toast.loading("please wait..")}}>Loading</button>
+                <button type="button" className="toast" onClick={()=>{toast.success("Loaded sucesssfully")}}>loaded Sucessfully</button>
 
 
 
